@@ -1,6 +1,6 @@
 package microservice.module.securityjwtauth.repository;
 
-import microservice.module.securityjwtauth.models.User;
+import microservice.module.securityjwtauth.domain.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

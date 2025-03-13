@@ -1,4 +1,4 @@
-package microservice.module.securityjwtauth.models;
+package microservice.module.securityjwtauth.domain.model;
 
 import jakarta.persistence.*;
 import lombok.*;
