@@ -10,6 +10,8 @@ spring:
     password: 25810*
   jpa:
     hibernate:
+      naming:
+        database-platform: org.hibernate.dialect.PostgreSQLDialect
       ddl-auto: update
     show-sql: true
     properties:
